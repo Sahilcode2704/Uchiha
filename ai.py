@@ -8,13 +8,16 @@ response = client.models.generate_content(
 print(response)
 print(response.text)
 
-def send(content): 
+def send(): 
+  content = input("Enter your question")
   response = client.models.generate_content(
-    model="gemini-2.5-flash", contents=content)
-    print(response)
-    print(response.text)
+  model="gemini-2.5-flash", contents=content)
+  print(response)
+  print(response.text)
 
-send("What is your name")
-
+while True: 
+  send()
+  
+  
 
 
