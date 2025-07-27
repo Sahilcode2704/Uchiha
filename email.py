@@ -27,4 +27,4 @@ def email(ine, msgx):
     except Exception as e:
         print("❌ Error sending email:", e)
 
-email("sahiln27042008", "Dhfhydhdveeih")
+email("sahiln27042008@gmail.com", "Dhfhydhdveeih")
