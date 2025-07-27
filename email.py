@@ -7,7 +7,7 @@ receiver_email = "sahilgrt426@gmail.com"
 app_password = "feaylvqzmrfzaoil"  # 16-char app password
 sender_email = "sahiln27042008@gmail.com"
 subject = "Test Email Without Gmail API"
-body = "Hello, this is a test email sent using Python and SMTP."
+body = "Hello you are gonna be really successful and rich. GOD PROMISE"
 
 # Compose email
 msg = MIMEMultipart()
