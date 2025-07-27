@@ -19,12 +19,12 @@ def email(ine,msgx):
     # Send email via Gmail SMTP
     try:
         with smtplib.SMTP('smtp.gmail.com', 587) as server:
-        server.starttls()
-        server.login(sender_email, app_password)
-        server.send_message(msg)
-        print("✅ Email sent successfully!")
-        except Exception as e:
-            print("❌ Error sending email:", e)
+            server.starttls()
+            server.login(sender_email, app_password)
+            server.send_message(msg)
+            print("✅ Email sent successfully!")
+    except Exception as e:
+        print("❌ Error sending email:", e)
     
 
 email("sahiln27042008","Dhfhydhdveeih")
