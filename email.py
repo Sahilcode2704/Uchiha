@@ -3,10 +3,10 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
 # Configuration
-receiver_email = "sahilgrt426@gmail.com"
-app_password = "feaylvqzmrfzaoil"  # 16-char app password
 sender_email = "sahiln27042008@gmail.com"
-subject = "Test Email Without Gmail API"
+receiver_email = input("Enter the recipient email-")
+app_password = "feaylvqzmrfzaoil"  # 16-char app password
+subject = "Check Email"
 body = "Hello you are gonna be really successful and rich. GOD PROMISE"
 
 # Compose email
