@@ -2,7 +2,7 @@ import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
-def email(ine, msgx):
+def emails(ine, msgx):
     # Configuration
     sender_email = "sahiln27042008@gmail.com"
     receiver_email = ine
