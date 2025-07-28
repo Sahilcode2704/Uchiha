@@ -16,7 +16,7 @@ urlp="https://sahilcode2704.github.io/Uchiha/contacts.csv"
 contacts = pd.read_csv(urlp)
 print(contacts)
 
-for row in contact.iterrows: 
+for row in contacts.iterrows(): 
     name = row[Name]
     email = row[Email]
     message = "Hi "+name
