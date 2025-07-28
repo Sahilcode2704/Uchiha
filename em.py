@@ -25,6 +25,5 @@ for index, row in contacts.iterrows():
     print("cool")    
     
     
-emails("sahiln27042008@gmail.com","fjghbf")
 
 
