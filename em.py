@@ -1,5 +1,5 @@
 import pandas as pd
-from emailgrt import emails
+import emailgrt
 
 urlp="https://sahilcode2704.github.io/Uchiha/contacts.csv"
 contacts = pd.read_csv(urlp)
