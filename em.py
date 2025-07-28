@@ -17,8 +17,8 @@ contacts = pd.read_csv(urlp)
 print(contacts)
 
 for row in contacts.iterrows(): 
-    name = row[Name]
-    email = row[Email]
+    name = row["Name"]
+    email = row["Email"]
     message = "Hi "+name
     emails(email,message)
     print("cool")
