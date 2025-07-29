@@ -2,7 +2,7 @@ import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
-def emails(ine, msgx):
+def emails(ine,sub,msgx):
     # Configuration
     sender_email = "sahiln27042008@gmail.com"
     receiver_email = ine
@@ -14,7 +14,7 @@ def emails(ine, msgx):
     msg = MIMEMultipart()
     msg['From'] = sender_email
     msg['To'] = receiver_email
-    msg['Subject'] = subject
+    msg['Subject'] = sub
     msg.attach(MIMEText(body, 'plain'))
 
     # Send email via Gmail SMTP
@@ -27,4 +27,4 @@ def emails(ine, msgx):
     except Exception as e:
         print("❌ Error sending email:", e)
 
-emails("sahiln27042008@gmail.com", "Dhfhydhdveeih")
+emails("sahiln27042008@gmail.com","ggh","Dhfhydhdveeih")
