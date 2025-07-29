@@ -9,7 +9,7 @@ import logging
 
 # === CONFIG ===
 EMAIL_FUNCTION_URL = "https://sahilcode2704.github.io/Uchiha/emailgrt.py"
-CONTACTS_CSV_URL = "https://sahilcode2704.github.io/Uchiha/contacts.csv"
+CONTACTS_CSV_URL = "https://sahilcode2704.github.io/Uchiha/co.csv"
 LOG_FILE = "email_log.csv"
 SEND_HOUR = 19  # Default scheduled time (7:00 PM IST)
 SEND_MINUTE = 0
