@@ -96,7 +96,7 @@ If there's any issue, inefficiency, or idea you’ve come across — no matter h
 Thank you for your time and the work you do. I'd be grateful for any advice or direction you’re willing to share.
 
 Warm regards,  
-Sahil N.  
+Sahil 
 sahiln27042008@gmail.com
 """
 
