@@ -29,7 +29,7 @@ if not os.path.exists(log_file):
 
 # Schedule
 target_ist = pytz.timezone('Asia/Kolkata').localize(
-    datetime.now().replace(hour=14, minute=6, second=0, microsecond=0)
+    datetime.now().replace(hour=14, minute=7, second=0, microsecond=0)
 )
 now_ist = datetime.now(pytz.timezone('Asia/Kolkata'))
 if now_ist > target_ist:
